@@ -9,7 +9,7 @@ function App() {
   return (
     <section>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <NavLink to="/"><a class="navbar-brand" >Camila Olivares R</a></NavLink>
+    <NavLink to="/"><a class="navbar-brand" >Camila O Rivera</a></NavLink>
       <div class="container-fluid">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">

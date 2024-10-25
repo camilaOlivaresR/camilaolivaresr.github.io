@@ -38,7 +38,7 @@ function App() {
           <Route path="about" element={<About/>} />
       </Routes>
     </main>
-    <footer class="text-center bg-body-tertiary">
+    <footer class="text-center bg-body-tertiary fixed-bottom ">
     <div class="container pt-4">
     <section class="mb-4">
       <a

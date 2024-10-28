@@ -7,7 +7,7 @@ import About from "./components/About";
 
 function App() {
   return (
-    <section>
+    <div>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <NavLink to="/"><a class="navbar-brand" >Camila O Rivera</a></NavLink>
       <div class="container-fluid">
@@ -74,7 +74,7 @@ function App() {
     
   </div>
     </footer>
-    </section>
+    </div>
    
   );
 }

@@ -9,7 +9,7 @@ import Search from "./components/Search";
 function App() {
   return (
     <div class="container ">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary " >
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" >
     <div class="container-fluid">
     <NavLink to="/"><a class="navbar-brand" >Camila O Rivera</a></NavLink> 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,8 +43,8 @@ function App() {
           <Route path="search" element={<Search/>} />
       </Routes>
     </main>
-    <footer class="text-center bg-body-tertiary fixed-bottom ">
-    <div class="container ">
+    <footer class="text-center bg-body-tertiary mt-5">
+    <div class="container  ">
     <section class="mb-2">
       <a
         data-mdb-ripple-init
@@ -76,11 +76,12 @@ function App() {
         ><i class="fab fa-github"></i
       ></a>
     </section>
-  </div>
-  <div class="text-center p-3 mb-2">
+    <div class="text-center p-3 mb-2">
     <p>© 2024 Copyright: Make love CamiDev</p> 
     
   </div>
+  </div>
+  
     </footer>
     </div>
    

@@ -77,7 +77,7 @@ function App() {
       ></a>
     </section>
     <div class="text-center p-3 mb-2">
-    <p>© 2024 Copyright: Make love CamiDev</p> 
+    <p>© 2024 Copyright: Make love CamiDev <i class="fab fa-react fa-2x"></i> </p> 
     
   </div>
   </div>

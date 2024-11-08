@@ -8,71 +8,132 @@ const Portfolio = () => {
       </div>
       <div class="d-flex flex-wrap justify-content-evenly mt-4 mb-4 ">
         <div class="p-2 " >
-          <div class="card mx-auto" style={{ width: "20rem", height: "20rem",height: "20rem" }}>
-            <img src="..." class="card-img-top" alt="..." />
+          <div class="card mx-auto" style={{ width: "20rem", height: "20rem", height: "20rem" }}>
+            {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">InternalWork
+              <a
+                  data-mdb-ripple-init
+                  class="btn btn-link btn-floating btn-lg text-body m-1"
+                  href="#!"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  target="_blank"
+                ><i class="fa fa-cube"></i>
+                </a>
+              </h5>
+              <p class="card-text">Plataforma interna de una empresa que busca concretamente es que sus empleados puedan postular a cargos internos  y poder escalar dentro de su compañía.</p>
+              <a href="https://github.com/camilaOlivaresR/internal-work" class="btn border">Github</a>
             </div>
           </div>
         </div>
         <div class=" p-2" >
-          <div class="card mx-auto" style={{ width: "20rem",height: "20rem" }}>
-            <img src="..." class="card-img-top" alt="..." />
+          <div class="card mx-auto" style={{ width: "20rem", height: "20rem" }}>
+            {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Portafolio de Fotos
+                <a
+                  data-mdb-ripple-init
+                  class="btn btn-link btn-floating btn-lg text-body m-1"
+                  href="#!"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  target="_blank"
+                ><i class="fa fa-cube"></i>
+                </a>
+              </h5>
+              <p class="card-text">Karina pide desarrollar una aplicación simple para que los usuarios puedan ver sus fotografías y comentarlas.</p>
+              <a href="https://github.com/camilaOlivaresR/ProyectoPortafolioFotos" target="_blank" class="btn border">Github</a>
             </div>
           </div>
         </div>
         <div class="p-2 " >
-          <div class="card mx-auto" style={{ width: "20rem",height: "20rem" }}>
-            <img src="..." class="card-img-top" alt="..." />
+          <div class="card mx-auto" style={{ width: "20rem", height: "20rem" }}>
+            {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">The Rial Neaw
+                <a
+                  data-mdb-ripple-init
+                  class="btn btn-link btn-floating btn-lg text-body m-1"
+                  href="#!"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  target="_blank"
+                ><i class="fa fa-cube"></i>
+                </a>
+              </h5>
+              <p class="card-text">About
+                Nuestro cliente, busca lanzar su nuevo sitio de noticias llamado “TheRialNews” donde en forma satírica informa a sus usuarios de actualidad..</p>
+              <a href="https://github.com/camilaOlivaresR/TheRialNews" target="_blank" class="btn border">Github</a>
             </div>
           </div>
         </div>
         <div class="  p-2 " >
-          <div class="card mx-auto" style={{ width: "20rem",height: "20rem" }}>
-            <img src="..." class="card-img-top" alt="..." />
+          <div class="card mx-auto" style={{ width: "20rem", height: "20rem" }}>
+            {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Catalogo productos
+                <a
+                  data-mdb-ripple-init
+                  class="btn btn-link btn-floating btn-lg text-body m-1"
+                  href="#!"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  target="_blank"
+                ><i class="fa fa-cube"></i>
+                </a>
+              </h5>
+              <p class="card-text">Catálogo de productos donde el usuario pueda revisar los productos que se encuentran en él y poder determinar entre muchas opciones, los productos tendrán categorías asociadas para poder ordenarlos en un futuro.</p>
+              <a href="https://github.com/camilaOlivaresR/ProyectoCatalogoRoR" target="_blank" class="btn border ">Github</a>
             </div>
           </div>
         </div>
         <div class="  p-2 " >
-          <div class="card mx-auto" style={{ width: "20rem" ,height: "20rem"}}>
-            <img src="..." class="card-img-top" alt="..." />
+          <div class="card mx-auto" style={{ width: "20rem", height: "20rem" }}>
+            {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Medical Center
+                <a
+                  data-mdb-ripple-init
+                  class="btn btn-link btn-floating btn-lg text-body m-1"
+                  href="#!"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  target="_blank"
+                ><i class="fa fa-cube"></i>
+                </a>
+              </h5>
+              <p class="card-text">Un cliente ha pedido desarrollar una aplicación para poder llevar un registro de los tratamientos que le ha asignado a un paciente..</p>
+              <a href="https://github.com/camilaOlivaresR/MedicalCenter-RoR" target="_blank" class="btn border">Github</a>
             </div>
           </div>
         </div>
         <div class="p-2 " >
-          <div class="card mx-auto" style={{ width: "20rem",height: "20rem" }} >
-            <img src="..." class="card-img-top" alt="..." />
+          <div class="card mx-auto" style={{ width: "20rem", height: "20rem" }} >
+            {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Movie Blog
+                <a
+                  data-mdb-ripple-init
+                  class="btn btn-link btn-floating btn-lg text-body m-1"
+                  href="#!"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  target="_blank"
+                ><i class="fa fa-cube"></i>
+                </a>
+              </h5>
+              <p class="card-text">Blog de peliculas ,series y documentales en Ruby on Rails</p>
+              <a href="https://github.com/camilaOlivaresR/MovieBlog_Ror2024" target="_blank" class="btn border">Github</a>
             </div>
           </div>
         </div>
         <div class="p-2 " >
-          <div class="card mx-auto" style={{ width: "20rem",height: "20rem" }} >
+          <div class="card mx-auto" style={{ width: "20rem", height: "20rem" }} >
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
               <h5 class="card-title">Web Responsiva
-              <a
+                <a
                   data-mdb-ripple-init
                   class="btn btn-link btn-floating btn-lg text-body m-1"
                   href="#!"
@@ -83,16 +144,16 @@ const Portfolio = () => {
                 </a>
               </h5>
               <p class="card-text">Web responsiva desarrollada en WordPress.</p>
-              <a href="https://anis88.com/" class="btn btn border">WEb responsiva</a>
+              <a href="https://anis88.com/" class="btn btn border" target="_blank">Web responsiva</a>
             </div>
           </div>
         </div>
         <div class="p-2 " >
-          <div class="card mx-auto" style={{ width: "20rem",height: "20rem" }} >
+          <div class="card mx-auto" style={{ width: "20rem", height: "20rem" }} >
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
               <h5 class="card-title">Red Social Deporte
-              <a
+                <a
                   data-mdb-ripple-init
                   class="btn btn-link btn-floating btn-lg text-body m-1"
                   href="#!"
@@ -108,7 +169,7 @@ const Portfolio = () => {
           </div>
         </div>
         <div class="p-2 " >
-          <div class="card mx-auto" style={{ width: "20rem",height: "20rem" }} >
+          <div class="card mx-auto" style={{ width: "20rem", height: "20rem" }} >
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body" >
               <h5 class="card-title">Vegan Queen

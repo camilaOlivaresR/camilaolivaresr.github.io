@@ -2,11 +2,11 @@ import React from 'react'
 
 const Portfolio = () => {
   return (
-    <div class="container mb-5">
+    <div class="container mx-auto  mb-5">
       <div class="d-flex justify-content-center">
         <h2 >Portafolio</h2>
       </div>
-      <div class="d-flex flex-wrap justify-content-evenly mt-4 mb-4 ">
+      <div class="d-flex flex-wrap justify-content-evenly  mb-5">
         <div class="p-2 " >
           <div class="card mx-auto" style={{ width: "20rem", height: "20rem", height: "20rem" }}>
             {/* <img src="..." class="card-img-top" alt="..." /> */}
@@ -62,8 +62,8 @@ const Portfolio = () => {
                 ><i class="fa fa-cube"></i>
                 </a>
               </h5>
-              <p class="card-text">About
-                Nuestro cliente, busca lanzar su nuevo sitio de noticias llamado “TheRialNews” donde en forma satírica informa a sus usuarios de actualidad..</p>
+              <p class="card-text">
+                Nuestro cliente, busca lanzar su nuevo sitio de noticias llamado “TheRialNews” donde en forma satírica informa a sus usuarios de actualidad.</p>
               <a href="https://github.com/camilaOlivaresR/TheRialNews" target="_blank" class="btn border">Github</a>
             </div>
           </div>

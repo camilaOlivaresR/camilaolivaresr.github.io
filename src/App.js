@@ -11,7 +11,7 @@ function App() {
     <div class="container">
       <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" >
         <div class="container-fluid">
-          <NavLink to="/"><a class="navbar-brand" >Camila O Rivera</a></NavLink>
+          <NavLink to="/home"><a class="navbar-brand" >Camila O Rivera</a></NavLink>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -36,7 +36,7 @@ function App() {
       </nav>
       <main>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="blog" element={<Blog />} />
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="about" element={<About />} />

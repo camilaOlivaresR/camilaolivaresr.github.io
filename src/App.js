@@ -43,7 +43,7 @@ function App() {
           <Route path="search" element={<Search />} />
         </Routes>
       </main>
-      <footer class="mt-5  bg-body-tertiary  fixed-bottom">
+      <footer class="mt-5  bg-body-tertiary ">
         <div class="container d-flex justify-content-center ">
 
           <ul class="list-inline ">

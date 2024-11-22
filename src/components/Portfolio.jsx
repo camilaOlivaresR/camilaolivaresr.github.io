@@ -2,11 +2,11 @@ import React from 'react'
 
 const Portfolio = () => {
   return (
-    <div class="container mx-auto  mb-5">
+    <div class="container mx-auto ">
       <div class="d-flex justify-content-center">
         <h2 >Portafolio</h2>
       </div>
-      <div class="d-flex flex-wrap justify-content-evenly  mb-5">
+      <div class="d-flex flex-wrap justify-content-evenly">
         <div class="p-2 " >
           <div class="card mx-auto" style={{ width: "20rem", height: "20rem", height: "20rem" }}>
             {/* <img src="..." class="card-img-top" alt="..." /> */}

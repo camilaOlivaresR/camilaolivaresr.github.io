@@ -9,7 +9,7 @@ import Search from "./components/Search";
 function App() {
   return (
     <div class="container">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" >
+      <nav class="navbar  bg-body-tertiary sticky-top" >
         <div class="container-fluid">
           <NavLink to="/"><a class="navbar-brand" >Camila O Rivera</a></NavLink>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

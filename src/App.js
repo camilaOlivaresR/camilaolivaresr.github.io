@@ -9,7 +9,7 @@ import Search from "./components/Search";
 function App() {
   return (
     <div class="container">
-      <nav class="navbar  bg-body-tertiary sticky-top" >
+      <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" >
         <div class="container-fluid">
           <NavLink to="/"><a class="navbar-brand" >Camila O Rivera</a></NavLink>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,8 +43,8 @@ function App() {
           <Route path="search" element={<Search />} />
         </Routes>
       </main>
-      <footer class="mt-5  bg-body-tertiary ">
-        <div class="container d-flex justify-content-center ">
+      <footer class="mt-auto  bg-body-tertiary ">
+        <div class="container  d-flex justify-content-center ">
 
           <ul class="list-inline ">
             <li class="list-inline-item">

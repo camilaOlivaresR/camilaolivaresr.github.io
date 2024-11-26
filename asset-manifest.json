@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/camilaOlivaresR/camidev.git/static/css/main.63f84a0e.css",
-    "main.js": "/camilaOlivaresR/camidev.git/static/js/main.95f185ab.js",
-    "static/media/cara.jpeg": "/camilaOlivaresR/camidev.git/static/media/cara.b8e0be0e4f5e18db5baa.jpeg",
-    "index.html": "/camilaOlivaresR/camidev.git/index.html",
-    "main.63f84a0e.css.map": "/camilaOlivaresR/camidev.git/static/css/main.63f84a0e.css.map",
-    "main.95f185ab.js.map": "/camilaOlivaresR/camidev.git/static/js/main.95f185ab.js.map"
+    "main.css": "/camilaOlivaresR/camidev/static/css/main.63f84a0e.css",
+    "main.js": "/camilaOlivaresR/camidev/static/js/main.5e591c63.js",
+    "static/media/cara.jpeg": "/camilaOlivaresR/camidev/static/media/cara.b8e0be0e4f5e18db5baa.jpeg",
+    "index.html": "/camilaOlivaresR/camidev/index.html",
+    "main.63f84a0e.css.map": "/camilaOlivaresR/camidev/static/css/main.63f84a0e.css.map",
+    "main.5e591c63.js.map": "/camilaOlivaresR/camidev/static/js/main.5e591c63.js.map"
   },
   "entrypoints": [
     "static/css/main.63f84a0e.css",
-    "static/js/main.95f185ab.js"
+    "static/js/main.5e591c63.js"
   ]
 }

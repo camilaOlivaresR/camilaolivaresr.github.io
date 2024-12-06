@@ -7,7 +7,7 @@ const Portfolio = () => {
         <h2 >Portafolio</h2>
       </div>
       <div class="d-flex flex-wrap justify-content-evenly mt-4 mb-4">
-        <div class="p-4" >
+        <div class="p-2" >
           <div class="card mx-auto" style={{ width: "20rem", height: "20rem" }}>
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">

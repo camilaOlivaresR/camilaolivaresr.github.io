@@ -27,7 +27,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div class="p-4" >
+        <div class="p-2" >
           <div class="card mx-auto" style={{ width: "20rem", height: "20rem" }}>
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
@@ -47,7 +47,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div class="p-4" >
+        <div class="p-2" >
           <div class="card mx-auto" style={{ width: "20rem", height: "20rem" }}>
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
@@ -68,7 +68,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div class="p-4" >
+        <div class="p-2" >
           <div class="card mx-auto" style={{ width: "20rem", height: "20rem" }}>
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
@@ -88,7 +88,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div class="p-4" >
+        <div class="p-2" >
           <div class="card mx-auto" style={{ width: "20rem", height: "20rem" }}>
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
@@ -108,7 +108,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div class="p-4" >
+        <div class="p-2" >
           <div class="card mx-auto" style={{ width: "20rem", height: "20rem" }} >
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
@@ -128,7 +128,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div class="p-4" >
+        <div class="p-2" >
           <div class="card mx-auto" style={{ width: "20rem", height: "20rem" }} >
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
@@ -148,7 +148,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div class="p-4" >
+        <div class="p-2" >
           <div class="card mx-auto" style={{ width: "20rem", height: "20rem" }} >
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
@@ -168,7 +168,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div class="p-4" >
+        <div class="p-2" >
           <div class="card mx-auto" style={{ width: "20rem", height: "20rem" }} >
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body" >

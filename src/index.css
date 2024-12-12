@@ -1,6 +1,14 @@
-#footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;            /* altura de pie de página */
-  }
+body,html{
+    height: 100%;
+}
+#wrapper{
+  min-height:100%;
+
+}
+#page{
+  min-height:85vh;
+}
+#footer{
+  position: relative;
+ 
+}

@@ -8,7 +8,8 @@ import Search from "./components/Search";
 
 function App() {
   return (
-    <div class="container">
+    <>
+    <div class="container" id="wrapper">
       <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" >
         <div class="container-fluid">
           <NavLink to="/camidev"><a class="navbar-brand" >Camila O Rivera</a></NavLink>
@@ -34,7 +35,7 @@ function App() {
           </div>
         </div>
       </nav>
-      <main>
+      <main id="page" >
         <Routes>
           <Route path="/camidev" element={<Home />} />
           <Route path="blog" element={<Blog />} />
@@ -43,8 +44,9 @@ function App() {
           <Route path="search" element={<Search />} />
         </Routes>
       </main>
-      <footer class="mt-auto  bg-body-tertiary ">
-        <div class="container  d-flex justify-content-center ">
+      
+      <footer class="mx-auto bg-body-tertiary " id="footer">
+        <div class="d-flex justify-content-center ">
 
           <ul class="list-inline ">
             <li class="list-inline-item">
@@ -89,7 +91,8 @@ function App() {
           </ul>
         </div>
       </footer>
-    </div>
+      </div>
+    </>
 
   );
 }

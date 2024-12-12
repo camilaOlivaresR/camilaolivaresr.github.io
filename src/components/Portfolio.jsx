@@ -84,7 +84,7 @@ const Portfolio = () => {
                 </a>
               </h5>
               <p class="card-text">Catálogo de productos donde el usuario pueda revisar los productos que se encuentran en él y poder determinar entre muchas opciones, los productos tendrán categorías asociadas para poder ordenarlos en un futuro.</p>
-              <a href="https://github.com/camilaOlivaresR/ProyectoCatalogoRoR" target="_blank" class="btn border ">Github</a>
+              <a href="https://github.com/camilaOlivaresR/CatalogoRoR" target="_blank" class="btn border ">Github</a>
             </div>
           </div>
         </div>

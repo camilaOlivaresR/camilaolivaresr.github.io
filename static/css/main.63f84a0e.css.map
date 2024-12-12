@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.63f84a0e.css","mappings":"AAAA,QAEI,QAAS,CAET,aAAc,CAHd,iBAAkB,CAElB,UAEF","sources":["index.css"],"sourcesContent":["#footer {\n    position: absolute;\n    bottom: 0;\n    width: 100%;\n    height: 2.5rem;            /* altura de pie de página */\n  }"],"names":[],"sourceRoot":""}

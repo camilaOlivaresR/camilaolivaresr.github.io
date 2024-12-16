@@ -1,7 +1,7 @@
 body,html{
     height: 100%;
 }
-#wrapper{
+  #wrapper{
   min-height:100%;
 
 }
@@ -11,4 +11,9 @@ body,html{
 #footer{
   position: relative;
  
+}
+
+#responsive {
+  width: 100%;
+  height: auto;
 }

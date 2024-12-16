@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
         <div class="d-flex justify-content-center mb-4">
-        <img src={cara} class="rounded-circle mx-auto d-block" alt="..."/>
+        <img src={cara} class="rounded-circle mx-auto d-block" id='responsive' alt="..."/>
        
         </div>
         <p>

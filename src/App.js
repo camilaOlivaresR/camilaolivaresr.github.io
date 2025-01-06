@@ -4,14 +4,16 @@ import Home from "./components/Home";
 import Portfolio from "./components/Portfolio";
 import Blog from "./components/Blog";
 import About from "./components/About";
+
 import Search from "./components/Search";
 
 function App() {
   return (
     <>
     <div class="container" id="wrapper">
+    <div class="container-fluid">
       <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" >
-        <div class="container-fluid">
+        
           <NavLink to="/camidev"><a class="navbar-brand" >Camila O Rivera</a></NavLink>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -33,8 +35,9 @@ function App() {
             </ul>
 
           </div>
+          </nav>
         </div>
-      </nav>
+   
       <main id="page" >
         <Routes>
           <Route path="/camidev" element={<Home />} />

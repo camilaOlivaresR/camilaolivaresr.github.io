@@ -53,7 +53,17 @@ function App() {
 
           <ul class="list-inline ">
             <li class="list-inline-item">
-              <span>© 2024 Copyright: Make love CamiDev <i class="fab fa-react fa-2x"></i> </span>
+              <span>© 2024 Copyright: Make love CamiDev 
+                <a
+                data-mdb-ripple-init
+                class="btn btn-link btn-floating btn-lg text-body "
+                href="https://es.react.dev/"
+                role="button"
+                target="_blank"
+                ><i class="fab fa-react fa-2x"></i> 
+
+                </a>
+              </span>
             </li>
             <li class="list-inline-item">
               <a

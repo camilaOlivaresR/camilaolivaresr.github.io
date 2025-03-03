@@ -29,9 +29,9 @@ function App() {
               <li class="nav-item">
                 <NavLink to="/blog"><a class="nav-link">Blog</a></NavLink>
               </li>
-              <li class="nav-item">
+              {/* <li class="nav-item">
                 <NavLink to="/search"><a class="nav-link"><i class="fa fa-search" ></i></a></NavLink>
-              </li>
+              </li> */}
             </ul>
 
           </div>
@@ -53,7 +53,7 @@ function App() {
 
           <ul class="list-inline ">
             <li class="list-inline-item">
-              <span>© 2024 Copyright: Make love CamiDev 
+              <span>© 2024 HandMade CamiDev 
                 <a
                 data-mdb-ripple-init
                 class="btn btn-link btn-floating btn-lg text-body "

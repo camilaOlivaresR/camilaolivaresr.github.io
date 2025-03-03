@@ -17,6 +17,10 @@ body,html{
   width: 40%;
   height: auto;
 }
+
+.navbar-toggler{
+  color: #ff0080;
+}
 .nav-link:hover {
   color: #ff0080;
   font-size: 20px;

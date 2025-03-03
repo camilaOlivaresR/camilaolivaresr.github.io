@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/camidev/static/css/main.404cb515.css",
-    "main.js": "/camidev/static/js/main.ca23ba8a.js",
+    "main.js": "/camidev/static/js/main.6e6017c7.js",
     "static/media/cara.jpeg": "/camidev/static/media/cara.b8e0be0e4f5e18db5baa.jpeg",
     "index.html": "/camidev/index.html",
     "main.404cb515.css.map": "/camidev/static/css/main.404cb515.css.map",
-    "main.ca23ba8a.js.map": "/camidev/static/js/main.ca23ba8a.js.map"
+    "main.6e6017c7.js.map": "/camidev/static/js/main.6e6017c7.js.map"
   },
   "entrypoints": [
     "static/css/main.404cb515.css",
-    "static/js/main.ca23ba8a.js"
+    "static/js/main.6e6017c7.js"
   ]
 }

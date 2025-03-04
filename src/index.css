@@ -7,7 +7,9 @@ body,html{
 }
 #page{
   min-height:85vh;
+  margin-top: 3%;
 }
+
 #footer{
   position: relative;
  
@@ -23,8 +25,8 @@ body,html{
 }
 .nav-link:hover {
   color: #ff0080;
-  font-size: 20px;
-  font-weight: 700;
+  /* font-size: 20px;
+  font-weight: 700; */
 
 }
 .navbar-brand:hover{
@@ -33,6 +35,14 @@ body,html{
   font-weight: 900;
  
 }
+.navbar-brand{
+  color: #ff0080;
+  font-size: 30px;
+  font-weight: 900;
+ 
+}
 a{
   text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
 }

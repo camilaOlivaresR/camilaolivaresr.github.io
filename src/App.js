@@ -11,8 +11,8 @@ function App() {
   return (
     <>
     <div class="container" id="wrapper">
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" >
+    <div class="container-fluid mt-4 ">
+      <nav class="navbar navbar-expand-lg sticky-top" >
         
           <NavLink to="/camidev"><a class="navbar-brand" >Camila O Rivera</a></NavLink>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,6 +39,7 @@ function App() {
         </div>
    
       <main id="page" >
+        <div id="page-content"> 
         <Routes>
           <Route path="/camidev" element={<Home />} />
           <Route path="blog" element={<Blog />} />
@@ -46,6 +47,7 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="search" element={<Search />} />
         </Routes>
+        </div>
       </main>
       
       <footer class="mx-auto bg-body-tertiary " id="footer">

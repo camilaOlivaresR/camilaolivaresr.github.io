@@ -41,7 +41,7 @@ function App() {
       <main id="page" >
         <div id="page-content"> 
         <Routes>
-          <Route path="camidev" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="blog" element={<Blog />} />
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="about" element={<About />} />
@@ -53,7 +53,7 @@ function App() {
       <footer class="mx-auto" id="footer">
         <div class="d-flex justify-content-center ">
 
-          <ul class="list-inline ">
+          <ul class="list-inline mx-auto d-block ">
           <span>© 2024 HandMade CamiDev </span>
             <li class="list-inline-item">
                 <a

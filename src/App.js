@@ -14,7 +14,7 @@ function App() {
     <div class="container-fluid mt-4 ">
       <nav class="navbar navbar-expand-lg sticky-top" >
         
-          <NavLink to="/"><a class="navbar-brand" >Camila O Rivera</a></NavLink>
+          <NavLink to="/camidev"><a class="navbar-brand" >Camila O Rivera</a></NavLink>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -41,7 +41,7 @@ function App() {
       <main id="page" >
         <div id="page-content"> 
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/camidev" element={<Home />} />
           <Route path="blog" element={<Blog />} />
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="about" element={<About />} />
@@ -53,7 +53,7 @@ function App() {
       <footer class="mx-auto" id="footer">
         <div class="d-flex justify-content-center ">
 
-          <ul class="list-inline mx-auto d-block ">
+          <ul class="list-inline ">
           <span>© 2024 HandMade CamiDev </span>
             <li class="list-inline-item">
                 <a

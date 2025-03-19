@@ -4,7 +4,7 @@ const Portfolio = () => {
   return (
     <div class="container mx-auto ">
       <div class="d-flex justify-content-center">
-        <h2 >Portafolio</h2>
+        <h2>Portafolio</h2>
       </div>
       <div class="d-flex flex-wrap justify-content-evenly mt-4 mb-4">
         <div class="p-2" >

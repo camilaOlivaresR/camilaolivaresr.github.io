@@ -4,8 +4,8 @@ import Home from "./components/Home";
 import Portfolio from "./components/Portfolio";
 import Blog from "./components/Blog";
 import About from "./components/About";
-
-import Search from "./components/Search";
+// import Search from "./components/Search";
+// import DarkMode from "./components/DarkMode";
 
 function App() {
   return (
@@ -29,11 +29,11 @@ function App() {
               <li class="nav-item">
                 <NavLink to="/blog"><a class="nav-link">Blog</a></NavLink>
               </li>
-              {/* <li class="nav-item">
+               {/* <li class="nav-item">
                 <NavLink to="/search"><a class="nav-link"><i class="fa fa-search" ></i></a></NavLink>
-              </li> */}
+              </li>  */}
             </ul>
-
+                {/* <DarkMode/> */}
           </div>
           </nav>
         </div>
@@ -45,7 +45,7 @@ function App() {
           <Route path="blog" element={<Blog />} />
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="about" element={<About />} />
-          <Route path="search" element={<Search />} />
+          {/* <Route path="search" element={<Search />} /> */}
         </Routes>
         </div>
       </main>

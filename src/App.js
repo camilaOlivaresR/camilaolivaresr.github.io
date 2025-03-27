@@ -4,13 +4,19 @@ import Home from "./components/Home";
 import Portfolio from "./components/Portfolio";
 import Blog from "./components/Blog";
 import About from "./components/About";
+import {DarkModeProvider } from "./components/DarkModeContext";
+// import DarkModeSwitch from "./components/DarkModeSwitch";
+// import Container from "./components/Container";
 // import Search from "./components/Search";
-// import DarkMode from "./components/DarkMode";
+
 
 function App() {
+
   return (
     <>
     <div class="container" id="wrapper">
+      <DarkModeProvider>
+
     <div class="container-fluid mt-4 ">
       <nav class="navbar navbar-expand-lg sticky-top" >
         
@@ -33,7 +39,8 @@ function App() {
                 <NavLink to="/search"><a class="nav-link"><i class="fa fa-search" ></i></a></NavLink>
               </li>  */}
             </ul>
-                {/* <DarkMode/> */}
+                  {/* <DarkModeSwitch/> */}
+                  {/* <Container/> */}
           </div>
           </nav>
         </div>
@@ -105,6 +112,8 @@ function App() {
           </ul>
         </div>
       </footer>
+     
+      </DarkModeProvider>
       </div>
     </>
 

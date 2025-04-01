@@ -1,5 +1,6 @@
-body,html{
+body,html {
     height: 100%;
+    background-color: #F0F2F3;
 }
   #wrapper{
   min-height:100%;
@@ -58,16 +59,18 @@ a{
   letter-spacing: 3px;
 }
 
-.Container{
+/* .Container{
   display: flex;
   height: 100vh;
   width: 100vw;
   justify-content: center;
   align-items: center;
-}
+} */
 .Container-dark {
-  background-color: #000;
+  background-color: #495057;
+  color: #F0F2F3;
 }
 .Container-light {
-  background-color: rgb(216, 216, 216);
+  background-color: #F0F2F3;
+  color: #495057;
 }

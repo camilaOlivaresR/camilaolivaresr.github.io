@@ -17,4 +17,4 @@ function DarkModeSwitch() {
     )
 }
 
-export default DarkModeSwitch
+export default DarkModeSwitch;

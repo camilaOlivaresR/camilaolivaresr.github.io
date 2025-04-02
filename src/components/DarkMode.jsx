@@ -1,7 +1,8 @@
 import React, { useContext } from 'react'
 import { DarkModeContext } from './DarkModeContext'
+import { DarkModeSwitch } from 'react-toggle-dark-mode';
 
-function DarkModeSwitch() {
+function DarkMode() {
 
     const {darkMode, toggleDarkMode} = useContext(DarkModeContext);
     const handleClick = () => {
@@ -10,11 +11,17 @@ function DarkModeSwitch() {
 
     return (
         <div>
-            <div class="form-check form-switch">
+            <DarkModeSwitch
+            //  style={{ marginBottom: '1rem' }}
+             checked={darkMode}
+             onChange={handleClick}
+             size={30}
+            />
+            {/* <div class="form-check form-switch">
                 <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onClick={handleClick} />
-            </div>
+            </div> */}
         </div>
     )
 }
 
-export default DarkModeSwitch;
+export default DarkMode;

@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { DarkModeContext } from './DarkModeContext'
-import DarkModeSwitch from './DarkModeSwitch';
+import DarkMode from './DarkMode';
 import Home from './Home';
 import Blog from './Blog';
 import Portfolio from './Portfolio';
@@ -36,7 +36,7 @@ function Page() {
                 <NavLink to="/search"><a class="nav-link"><i class="fa fa-search" ></i></a></NavLink>
               </li>  */}
               </ul>
-              <DarkModeSwitch />
+              <DarkMode/>
             </div>
           </nav>
         </div>

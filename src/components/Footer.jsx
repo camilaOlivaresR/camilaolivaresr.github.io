@@ -19,7 +19,7 @@ const Footer = () => {
 
                 </a>
             </li>
-            <li class="list-inline-item">
+            {/* <li class="list-inline-item">
               <a
                 data-mdb-ripple-init
                 class="btn btn-link btn-floating btn-lg text-body "
@@ -29,13 +29,13 @@ const Footer = () => {
                 target="_blank"
               ><i class="fa fa-envelope"></i
               ></a>
-            </li>
+            </li> */}
 
             <li class="list-inline-item">
               <a
                 data-mdb-ripple-init
                 class="btn btn-link btn-floating btn-lg text-body "
-                href="#!"
+                href="https://www.linkedin.com/in/898921229/"
                 role="button"
                 data-mdb-ripple-color="dark"
                 target="_blank"

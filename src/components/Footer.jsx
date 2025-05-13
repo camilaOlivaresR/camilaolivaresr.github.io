@@ -15,7 +15,7 @@ const Footer = () => {
                 href="https://es.react.dev/"
                 role="button"
                 target="_blank"
-                ><i class="fab fa-react fa-1x"></i> 
+                ><i class="fa-footer fab fa-react"></i> 
 
                 </a>
             </li>
@@ -39,7 +39,7 @@ const Footer = () => {
                 role="button"
                 data-mdb-ripple-color="dark"
                 target="_blank"
-              ><i class="fab fa-linkedin"></i
+              ><i class="fa-footer fab fa-linkedin"></i
               >
               </a>
             </li>
@@ -52,7 +52,7 @@ const Footer = () => {
                 role="button"
                 data-mdb-ripple-color="dark"
                 target="_blank"
-              ><i class="fab fa-github"></i
+              ><i class="fa-footer fab fa-github"></i
               ></a>
             </li>
           </ul>

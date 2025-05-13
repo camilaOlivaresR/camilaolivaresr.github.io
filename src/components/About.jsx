@@ -1,4 +1,8 @@
 import React from 'react'
+import compute from './img/aws-compute.png'
+import storage from './img/aws-storage.png'
+import ruby from './img/ruby.png'
+import security from './img/ciberseguridad.png'
 
 const About = () => {
   return (
@@ -96,7 +100,37 @@ const About = () => {
             <h5 class="card-title">Cloud Deployment</h5>
             <p class="card-text">Aws, Firebase, Render.</p>
           </div>
-        </div>      
+        </div> 
+
+        <div class="p-2" >
+          <div class="text-center"  style={{ width: "20rem"}}>
+          <span class="fa-stack fa-6x">
+            <img  class="fa fa-circle fa-stack-2x fa-inverse" src={compute}  alt="..." /> 
+          </span>
+          </div>
+        </div>
+        <div class="p-2" >
+          <div class="text-center" style={{ width: "20rem"}}>
+          <span class="fa-stack fa-6x">
+            <img class="fa fa-circle fa-stack-2x fa-inverse" src={storage}  alt="..." /> 
+            </span>
+          </div>
+        </div>
+        {/* <div class="p-2" >
+          <div class="text-center" style={{ width: "20rem"}}>
+          <span class="fa-stack fa-6x">
+            <img class="fa fa-circle fa-stack-2x fa-inverse"src={ruby}  alt="..." />
+            </span> 
+          </div>
+        </div> */}
+        <div class="p-2" >
+          <div class="text-center" style={{ width: "20rem"}}>
+          <span class="fa-stack fa-6x">
+            <img class="fa fa-circle fa-stack-2x fa-inverse" src={security}  alt="..." /> 
+            </span>
+          </div>
+        </div>
+
       </div>
     </div>
   )

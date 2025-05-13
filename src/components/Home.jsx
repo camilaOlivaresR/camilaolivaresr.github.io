@@ -1,5 +1,5 @@
 import React from 'react'
-import cara from './cara.jpeg'
+import cara from './img/cara.jpeg'
 
 
 const Home = () => {

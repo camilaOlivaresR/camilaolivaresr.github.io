@@ -16,6 +16,7 @@ function DarkMode() {
              checked={darkMode}
              onChange={handleClick}
              size={30}
+             sunColor={{color: '#495057'}}
             />
             {/* <div class="form-check form-switch">
                 <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onClick={handleClick} />

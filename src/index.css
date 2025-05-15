@@ -22,13 +22,19 @@ body,html {
 }
 
 .navbar-toggler{
-  color: #ff0080;
+ border: none;
+}
+.navbar-toggler:focus {
+ box-shadow: none;
 }
 .nav-link:hover {
   color: #F0F2F3;
   /* font-size: 20px;
   font-weight: 700; */
 
+}
+.navbar-toggler-icon {
+  color: #ff0080;
 }
 .nav-link {
   color: #ff0080;
@@ -38,13 +44,13 @@ body,html {
 }
 .navbar-brand:hover{
   color: #ff0080;
-  font-size: 30px;
+  font-size: 4vh;
   font-weight: 900;
  
 }
 .navbar-brand{
   color: #F0F2F3;
-  font-size: 30px;
+  font-size: 4vh;
   font-weight: 900;
  
 }
@@ -84,13 +90,13 @@ a{
   
   .navbar-brand{
     color: #495057;
-    font-size: 30px;
+    font-size: 4vh;
     font-weight: 900;
    
   }
   .navbar-brand:hover{
     color: #ff0080;
-    font-size: 30px;
+    font-size: 4vh;
     font-weight: 900;
    
   }

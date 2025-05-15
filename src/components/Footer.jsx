@@ -3,9 +3,8 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-         <footer class="mx-auto" id="footer">
+         <footer class="mx-auto " id="footer">
         <div class="d-flex justify-content-center ">
-
           <ul class="list-inline ">
           <span>© 2024 HandMade CamiDev </span>
             <li class="list-inline-item">

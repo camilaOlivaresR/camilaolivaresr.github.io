@@ -16,7 +16,7 @@ function Page() {
     <div className={darkMode ? `Container Container-dark` : `Container Container-light`}>
       <div class="container" id="wrapper">
         <div class="container-fluid mt-4 ">
-          <nav class="navbar navbar-expand-lg sticky-top" >
+          <nav class="navbar navbar-expand-lg sticky-top">
             <NavLink to="/"><a class="navbar-brand" >Camila O Rivera</a></NavLink>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -36,7 +36,9 @@ function Page() {
                 <NavLink to="/search"><a class="nav-link"><i class="fa fa-search" ></i></a></NavLink>
               </li>  */}
               </ul>
-              <DarkMode/>
+            </div>
+            <div>
+              <DarkMode />
             </div>
           </nav>
         </div>

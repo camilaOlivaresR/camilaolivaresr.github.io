@@ -12,8 +12,16 @@ body,html {
 }
 
 #footer{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
   position: relative;
- 
+ justify-content: center;
+ align-items: center;
+}
+.social-icons{
+  display: inline;
+  list-style: none;
 }
 
 #responsive {

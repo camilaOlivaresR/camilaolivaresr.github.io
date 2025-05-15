@@ -51,7 +51,7 @@ const Portfolio = () => {
           <div class="card mx-auto" style={{ width: "20rem", height: "20rem" }}>
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
-              <h5 class="card-title">The Rial Neaw
+              <h5 class="card-title">The Rial News
                 <a
                   data-mdb-ripple-init
                   class="btn btn-link btn-floating btn-lg text-body m-1"

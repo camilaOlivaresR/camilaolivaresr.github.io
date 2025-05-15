@@ -70,6 +70,7 @@ a{
 
 #parrafo {
   display: block;
+  text-align: justify;
   letter-spacing: 3px;
 }
 

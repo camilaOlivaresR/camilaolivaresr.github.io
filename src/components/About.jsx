@@ -6,11 +6,11 @@ import security from './img/ciberseguridad.png'
 
 const About = () => {
   return (
-    <div class="mx-auto">
+    <div class="mx-auto ">
       <div class="d-flex justify-content-center">
         <h2 >Habilidades</h2>
       </div>
-      <div class="d-flex flex-wrap justify-content-evenly mt-4 mb-4 p-2">
+      <div class="d-flex flex-wrap justify-content-evenly mt-4 mb-4 p-2 ">
         <div class="p-2 " >
           <div class="text-center" style={{ width: "20rem" }}>
             <span class="fa-stack fa-4x">

@@ -2,17 +2,17 @@ import React from 'react'
 
 const Portfolio = () => {
   return (
-    <div class="mx-auto ">
+    <div>
       <div class="d-flex justify-content-center">
         <h2>Portafolio</h2>
       </div>
-      <div class="d-flex flex-wrap justify-content-evenly mt-4 mb-4">
-        <div class="p-2" >
-          <div class="card mx-auto " style={{ width: "20rem", height: "20rem" }}>
+      <div class="row">
+        <div class="col p-2" >
+          <div class="card h-100">
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
               <h5 class="card-title">InternalWork
-              <a
+                <a
                   data-mdb-ripple-init
                   class="btn btn-link btn-floating btn-lg text-body m-1"
                   href="#!"
@@ -27,8 +27,8 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div class="p-2" >
-          <div class="card mx-auto" style={{ width: "20rem", height: "20rem" }}>
+        <div class="col p-2" >
+          <div class="card h-100">
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
               <h5 class="card-title">Portafolio de Fotos
@@ -47,8 +47,8 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div class="p-2" >
-          <div class="card mx-auto" style={{ width: "20rem", height: "20rem" }}>
+        <div class="col p-2" >
+          <div class="card h-100">
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
               <h5 class="card-title">The Rial News
@@ -68,8 +68,11 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div class="p-2" >
-          <div class="card mx-auto" style={{ width: "20rem", height: "20rem" }}>
+      </div>
+
+      <div class="row">
+        <div class="col p-2" >
+          <div class="card h-100">
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
               <h5 class="card-title">Catalogo productos
@@ -88,8 +91,8 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div class="p-2" >
-          <div class="card mx-auto" style={{ width: "20rem", height: "20rem" }}>
+        <div class="col p-2" >
+          <div class="card h-100">
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
               <h5 class="card-title">Medical Center
@@ -108,8 +111,8 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div class="p-2" >
-          <div class="card mx-auto" style={{ width: "20rem", height: "20rem" }} >
+        <div class="col p-2" >
+          <div class="card h-100">
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
               <h5 class="card-title">Movie Blog
@@ -128,8 +131,10 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div class="p-2" >
-          <div class="card mx-auto" style={{ width: "20rem", height: "20rem" }} >
+      </div>
+      <div class="row">
+        <div class="col p-2" >
+          <div class="card h-100">
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
               <h5 class="card-title">Web Responsiva
@@ -148,8 +153,8 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div class="p-2" >
-          <div class="card mx-auto" style={{ width: "20rem", height: "20rem" }} >
+        <div class="col p-2" >
+          <div class="card h-100">
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
               <h5 class="card-title">Red Social Deporte
@@ -168,8 +173,8 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div class="p-2" >
-          <div class="card mx-auto" style={{ width: "20rem", height: "20rem" }} >
+        <div class="col p-2" >
+          <div class="card h-100">
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body" >
               <h5 class="card-title">Vegan Queen
@@ -191,8 +196,9 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-
     </div>
+
+
   )
 }
 

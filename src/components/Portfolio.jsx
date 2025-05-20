@@ -2,7 +2,7 @@ import React from 'react'
 
 const Portfolio = () => {
   return (
-    <div>
+    <div class="mb-5">
       <div class="d-flex justify-content-center">
         <h2>Portafolio</h2>
       </div>

@@ -36,9 +36,9 @@ function Page() {
                 <NavLink to="/search"><a class="nav-link"><i class="fa fa-search" ></i></a></NavLink>
               </li>  */}
               </ul>
-            </div>
-            <div>
+              <div>
             <DarkMode />
+            </div>
             </div>
           </nav>
         </div>

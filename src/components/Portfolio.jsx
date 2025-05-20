@@ -7,7 +7,7 @@ const Portfolio = () => {
         <h2>Portafolio</h2>
       </div>
       <div class="row">
-        <div class="col p-2" >
+        <div class="col-md-4 p-2" >
           <div class="card h-100">
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
@@ -27,7 +27,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div class="col p-2" >
+        <div class="col-md-4 p-2" >
           <div class="card h-100">
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
@@ -47,7 +47,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div class="col p-2" >
+        <div class="col-md-4 p-2" >
           <div class="card h-100">
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
@@ -71,7 +71,7 @@ const Portfolio = () => {
       </div>
 
       <div class="row">
-        <div class="col p-2" >
+        <div class="col-md-4 p-2" >
           <div class="card h-100">
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
@@ -91,7 +91,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div class="col p-2" >
+        <div class="col-md-4 p-2" >
           <div class="card h-100">
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
@@ -111,7 +111,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div class="col p-2" >
+        <div class="col-md-4 p-2" >
           <div class="card h-100">
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
@@ -133,7 +133,7 @@ const Portfolio = () => {
         </div>
       </div>
       <div class="row">
-        <div class="col p-2" >
+        <div class="col-md-4 p-2" >
           <div class="card h-100">
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
@@ -153,7 +153,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div class="col p-2" >
+        <div class="col-md-4 p-2" >
           <div class="card h-100">
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
@@ -173,7 +173,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div class="col p-2" >
+        <div class="col-md-4 p-2" >
           <div class="card h-100">
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body" >

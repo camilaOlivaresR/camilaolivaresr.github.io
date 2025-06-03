@@ -22,7 +22,7 @@ const Portfolio = () => {
                 ><i class="fa fa-cube"></i>
                 </a>
               </h5>
-              <p class="card-text">Plataforma interna de una empresa que busca concretamente es que sus empleados puedan postular a cargos internos  y poder escalar dentro de su compañía.</p>
+              <p class="card-text">Plataforma interna de una empresa que busca concretamente que sus empleados puedan postular a cargos internos  y poder escalar dentro de su compañía.</p>
               <a href="https://github.com/camilaOlivaresR/internal-work" class="btn border">Github</a>
             </div>
           </div>

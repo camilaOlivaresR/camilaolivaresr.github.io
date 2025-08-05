@@ -1,7 +1,7 @@
 import React from 'react'
 import compute from './img/aws-compute.png'
 import storage from './img/aws-storage.png'
-import ruby from './img/ruby.png'
+// import ruby from './img/ruby.png'
 import security from './img/ciberseguridad.png'
 
 const About = () => {

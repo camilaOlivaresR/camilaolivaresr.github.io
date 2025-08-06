@@ -1,35 +1,75 @@
 import React from 'react'
+import ada from './img/ada.jpeg'
+
 
 const Blog = () => {
   return (
-    <div class="container">
-      <div class="list-group">
-        <a href="#" class="list-group-item list-group-item-action" aria-current="true">
-          <div class="d-flex w-100 justify-content-between">
-            <h5 class="mb-1">List group item heading</h5>
-            <small>Fecha : 2025</small>
+    <div class="mb-5">
+      <div class="d-flex justify-content-center">
+        <h2>Blog</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-4 p-2" >
+          <div class="card h-100">
+            <div class="card" >
+              <img src={ada} class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+              </div>
+
+              <div class="card-body">
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+              </div>
+            </div>
           </div>
-          <p class="mb-1">Some placeholder content in a paragraph.</p>
-          <small>And some small print.</small>
-        </a>
-        <a href="#" class="list-group-item list-group-item-action">
-          <div class="d-flex w-100 justify-content-between">
-            <h5 class="mb-1">List group item heading</h5>
-            <small class="text-body-secondary">3 days ago</small>
+        </div>
+        <div class="col-md-4 p-2" >
+          <div class="card h-100">
+            {/* <img src="..." class="card-img-top" alt="..." /> */}
+            {/* <div class="card-body">
+              <h5 class="card-title">Portafolio de Fotos
+                <a
+                  data-mdb-ripple-init
+                  class="btn btn-link btn-floating btn-lg text-body m-1"
+                  href="#!"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  target="_blank"
+                ><i class="fa fa-cube"></i>
+                </a>
+              </h5>
+              <p class="card-text">Karina pide desarrollar una aplicación simple para que los usuarios puedan ver sus fotografías y comentarlas.</p>
+              <a href="https://github.com/camilaOlivaresR/ProyectoPortafolioFotos" target="_blank" class="btn border">Github</a>
+            </div> */}
           </div>
-          <p class="mb-1">Some placeholder content in a paragraph.</p>
-          <small class="text-body-secondary">And some muted small print.</small>
-        </a>
-        <a href="#" class="list-group-item list-group-item-action">
-          <div class="d-flex w-100 justify-content-between">
-            <h5 class="mb-1">List group item heading</h5>
-            <small class="text-body-secondary">3 days ago</small>
+        </div>
+        <div class="col-md-4 p-2" >
+          <div class="card h-100">
+            {/* <img src="..." class="card-img-top" alt="..." /> */}
+            {/* <div class="card-body">
+              <h5 class="card-title">The Rial News
+                <a
+                  data-mdb-ripple-init
+                  class="btn btn-link btn-floating btn-lg text-body m-1"
+                  href="#!"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  target="_blank"
+                ><i class="fa fa-cube"></i>
+                </a>
+              </h5>
+              <p class="card-text">
+                Nuestro cliente, busca lanzar su nuevo sitio de noticias llamado “TheRialNews” donde en forma satírica informa a sus usuarios de actualidad.</p>
+              <a href="https://github.com/camilaOlivaresR/TheRialNews" target="_blank" class="btn border">Github</a>
+            </div> */}
           </div>
-          <p class="mb-1">Some placeholder content in a paragraph.</p>
-          <small class="text-body-secondary">And some muted small print.</small>
-        </a>
+        </div>
       </div>
     </div>
+
+
   )
 }
 

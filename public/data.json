@@ -1,0 +1,14 @@
+
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "The Catcher in the Rye",
+            "author": "J.D. Salinger",
+            "description": "A novel about a disenchanted teenager named Holden Caulfield.",
+            "publication_year": 1951,
+            "image": "./src/components/img/ada.jpeg",
+            "category": "feminism"
+        }
+    ]
+}

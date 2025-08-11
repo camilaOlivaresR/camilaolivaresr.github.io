@@ -33,9 +33,9 @@ const Blog = () => {
                 <p class="card-text">{post.description}</p>
               </div>
 
-              <div class="card-body">
+              {/* <div class="card-body">
                 <a href="#" class="card-link">Card link</a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

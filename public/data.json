@@ -3,12 +3,12 @@
     "posts": [
         {
             "id": 1,
-            "title": "The Catcher in the Rye",
-            "author": "J.D. Salinger",
-            "description": "A novel about a disenchanted teenager named Holden Caulfield.",
-            "publication_year": 1951,
-            "image": "./src/components/img/ada.jpeg",
-            "category": "feminism"
+            "title": "Ada Lovelace",
+            "author": "camidev",
+            "description": "Ada Lovelace no solo fue una brillante matemática sino también una visionaria en la comprensión del potencial de la Máquina analítica. Sus percepciones sobre lo que ahora llamamos programación estaban muy adelantadas a su tiempo, mostrando una profunda comprensión e imaginación sin precedentes.",
+            "year": 2025,
+            "image": "./imgdata/ada.jpeg",
+            "category": "tecno-feminism"
         }
     ]
 }

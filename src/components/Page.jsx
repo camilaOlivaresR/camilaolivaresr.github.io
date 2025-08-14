@@ -17,7 +17,7 @@ function Page() {
       <div class="container" id="wrapper">
         <div class="container-fluid mt-4 ">
           <nav class="navbar navbar-expand-lg sticky-top ">
-            <NavLink to="/"><a class="navbar-brand" >Camila O Rivera</a></NavLink>
+            <NavLink to="/"><a class="navbar-brand" >Camila Olivares Rivera</a></NavLink>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>

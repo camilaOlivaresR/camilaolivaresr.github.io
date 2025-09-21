@@ -16,22 +16,22 @@ const Footer = () => {
             ><i class="fa-footer fab fa-react"></i>
             </a>
           </li>
-          {/* <li class="list-inline-item">
+          <li class="list-inline-item">
               <a
                 data-mdb-ripple-init
                 class="btn btn-link btn-floating btn-lg text-body "
-                href="#!"
+                href="https://mail.google.com"
                 role="button"
                 data-mdb-ripple-color="dark"
                 target="_blank"
               ><i class="fa fa-envelope"></i
               ></a>
-            </li> */}
+            </li>
           <li class="social-icons">
             <a
               data-mdb-ripple-init
               class="btn btn-link btn-floating btn-lg text-body "
-              href="https://www.linkedin.com/in/898921229/"
+              href="https://www.linkedin.com/in/camilaolivaresrivera/"
               role="button"
               data-mdb-ripple-color="dark"
               target="_blank"

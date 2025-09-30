@@ -17,16 +17,19 @@ const Footer = () => {
             </a>
           </li>
           <li class="list-inline-item">
-              <a
-                data-mdb-ripple-init
-                class="btn btn-link btn-floating btn-lg text-body "
-                href="mailto:camila.desarrolloweb@gmail.com"
-                role="button"
-                data-mdb-ripple-color="dark"
-                target="_blank"
-              ><i class="fa fa-envelope"></i
-              ></a>
-            </li>
+            <a
+              data-mdb-ripple-init
+              class="btn btn-link btn-floating btn-lg text-body "
+              href="mailto:camila.desarrolloweb@gmail.com"
+              role="button"
+              data-mdb-ripple-color="dark"
+              onClick={(event) => {
+                event.preventDefault()
+                window.open(url.toString(), 'mail')
+              }}
+            ><i class="fa fa-envelope"></i
+            ></a>
+          </li>
           <li class="social-icons">
             <a
               data-mdb-ripple-init

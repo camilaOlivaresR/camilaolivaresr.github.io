@@ -20,7 +20,7 @@ const Footer = () => {
               <a
                 data-mdb-ripple-init
                 class="btn btn-link btn-floating btn-lg text-body "
-                href="https://mail.google.com"
+                href="mailto:camila.desarrolloweb@gmail.com"
                 role="button"
                 data-mdb-ripple-color="dark"
                 target="_blank"

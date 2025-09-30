@@ -20,11 +20,11 @@ const Footer = () => {
               <a
                 data-mdb-ripple-init
                 class="btn btn-link btn-floating btn-lg text-body "
-                href=""
+                href="mailto:camila.desarrolloweb@gmail.com"
                 role="button"
                 data-mdb-ripple-color="dark"
                 target="_blank"
-                onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&to=camila.desarrolloweb@gmail.com')"
+                rel="noopener noreferrer"
               ><i class="fa fa-envelope"></i
               ></a>
             </li>
